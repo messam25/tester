@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "scripts": {
+    "build": "ng build --configuration production"
+  },
+  "outputDirectory": "dist/angular-app1",
+  "framework": "angular"
+}
